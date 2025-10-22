@@ -1,0 +1,29 @@
+# Binaries
+redfish-exporter
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build directories
+bin/
+dist/
+
+# Go
+*.test
+*.out
+coverage/**
+
+# IDE/editor
+.idea/
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+
+# Local config
+config.yaml
+
+
